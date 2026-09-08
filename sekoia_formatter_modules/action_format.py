@@ -39,6 +39,14 @@ class FormatAction(Action):
                         processed_data[key] = datetime.fromtimestamp(value)
                     except (ValueError, OSError):
                         processed_data[key] = value
+                        self.log(
+                                message=f"Could not convert {key} to datetime, keeping original value",
+                                level="warning"
+                            )
+                    self.log(
+                            message="Converted epoch timestamp {key} to datetime object."
+                            level="info"
+                        )
                 else:
                     processed_data[key] = value
             
