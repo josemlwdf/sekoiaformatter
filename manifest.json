@@ -1,10 +1,8 @@
 {
   "configuration": {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Sekoia Formatter",
-    "type": "object",
     "properties": {},
-    "required": []
+    "title": "SekoiaFormatterModuleConfiguration",
+    "type": "object"
   },
   "description": "This module allows to use Python Format on the given value",
   "name": "Sekoia Formatter",
