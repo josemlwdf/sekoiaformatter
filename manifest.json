@@ -4,10 +4,10 @@
     "title": "SekoiaFormatterModuleConfiguration",
     "type": "object"
   },
-  "description": "This module allows to use Python Format on the given value",
+  "description": "Format the template using the processed data dictionary",
   "name": "Sekoia Formatter",
   "slug": "sekoia-formatter",
   "categories": [],
-  "uuid": "c7c876f7-b3aa-4248-91ac-f8ee13d39bee",
+  "uuid": "0beab79b-978b-4b98-a3e1-5c3e2f182465",
   "version": "0.1.0"
 }

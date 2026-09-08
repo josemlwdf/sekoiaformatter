@@ -1,8 +1,8 @@
 {
   "name": "FormatAction",
   "description": "FormatAction",
-  "uuid": "dce000a8-260b-58df-ab43-32e1914be2b0",
-  "docker_parameters": "format",
+  "uuid": "392f7c7d-b86e-5715-8fe6-7377ff2b1649",
+  "docker_parameters": "FormatAction",
   "arguments": {
     "properties": {
       "template": {

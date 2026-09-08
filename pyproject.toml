@@ -6,8 +6,7 @@ authors = []
 requires-python = ">=3.11,<4"
 
 dependencies = [
-    "requests>=2.34.2",
-    "sekoia-automation-sdk",
+    "sekoia-automation-sdk"
 ]
 
 [project.dependency-group.dev]
