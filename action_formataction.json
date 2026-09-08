@@ -11,10 +11,9 @@
         "type": "string"
       },
       "data": {
-        "additionalProperties": true,
-        "description": "Dictionary containing the variables to format into the template",
+        "description": "JSON string containing the variables to format into the template (e.g., '{\"name\": \"value\"}')",
         "title": "Data",
-        "type": "object"
+        "type": "string"
       }
     },
     "required": [
